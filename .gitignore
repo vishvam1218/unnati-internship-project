@@ -1,0 +1,39 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+
+# IDEs/Editors
+.vscode/
+.idea/
+
+# Large datasets & archive files
+archive/
+archive_extracted/
+*.zip
+*.tar.gz
+*.tgz
+
+# ML runs and outputs
+runs/
+output/
+augment/
+
+# Results & uploads (track folders but ignore contents)
+results/*
+!results/.gitkeep
+uploads/*
+!uploads/.gitkeep
+
+# Exclude pre-trained models
+yolov8n.pt
+
+# User environment / credentials / logs
+.env
+*.log
